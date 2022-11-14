@@ -8,7 +8,6 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Uu]ser[Ss]ettings/
 
 SaveTheQueen/[Ll]ibrary/
 SaveTheQueen/[Tt]emp/
@@ -16,11 +15,11 @@ SaveTheQueen/[Oo]bj/
 SaveTheQueen/[Bb]uild/
 SaveTheQueen/[Bb]uilds/
 SaveTheQueen/[Ll]ogs/
-SaveTheQueen/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 [Mm]emoryCaptures/
+SaveTheQueen/[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
