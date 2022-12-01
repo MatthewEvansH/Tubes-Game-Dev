@@ -50,4 +50,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Stage3.unity
     guid: 79255488fd115944d94a32105e6ad15b
+  - enabled: 1
+    path: 
+    guid: 2a2ba3196f40e4a4aa9983319a65728b
+  - enabled: 1
+    path: Assets/Boss.unity
+    guid: 763503f4a811c0f4ca15d1077c98d75f
+  - enabled: 1
+    path: Assets/Test.unity
+    guid: 72735dde8395f4d4690fb5256793bc79
   m_configObjects: {}
