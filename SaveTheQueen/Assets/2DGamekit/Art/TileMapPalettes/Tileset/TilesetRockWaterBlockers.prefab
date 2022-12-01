@@ -91,6 +91,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< HEAD
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -101,6 +102,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> 6415d5e345ce68d652b6b7fdc897be7c48d5a11f
   - first: {x: -3, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -294,6 +297,7 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+<<<<<<< HEAD
 --- !u!114 &1962869588755809411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +311,9 @@ MonoBehaviour:
   m_Name: Palette Settings
   m_EditorClassIdentifier: 
 --- !u!114 &9043080004671466677
+=======
+--- !u!114 &4314720574044001685
+>>>>>>> 6415d5e345ce68d652b6b7fdc897be7c48d5a11f
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -321,3 +328,18 @@ MonoBehaviour:
   cellSizing: 0
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 0, z: 1}
+<<<<<<< HEAD
+=======
+--- !u!114 &6746970205536271779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea68dde30c2924499d4a0a3e9fffcc3, type: 3}
+  m_Name: Palette Settings
+  m_EditorClassIdentifier: 
+>>>>>>> 6415d5e345ce68d652b6b7fdc897be7c48d5a11f
