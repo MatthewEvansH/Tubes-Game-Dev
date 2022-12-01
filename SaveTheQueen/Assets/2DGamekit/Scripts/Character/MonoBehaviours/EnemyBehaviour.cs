@@ -39,7 +39,7 @@ namespace Gamekit2D
 
         [Header("Melee Attack Data")]
         [EnemyMeleeRangeCheck]
-        public float meleeRange = 6.0f;
+        public float meleeRange = 3.0f;
         public Damager meleeDamager;
         public Damager contactDamager;
         [Tooltip("if true, the enemy will jump/dash forward when it melee attack")]
