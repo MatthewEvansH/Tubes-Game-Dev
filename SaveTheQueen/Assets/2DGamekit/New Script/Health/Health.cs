@@ -64,4 +64,11 @@ public class Health : MonoBehaviour
     //     Physics2D.IgnoreLayerCollision(13, 9, false); // false = player vunerable
     // }
 
+    public void Respawn()
+    {
+        dead = false;
+        AddHealth(startingHealth);
+        anim.ResetTrigger("die");
+        anim.Play("Idle");
+    }
 }
