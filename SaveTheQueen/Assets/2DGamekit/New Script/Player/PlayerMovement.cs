@@ -70,4 +70,13 @@ public class PlayerMovement : MonoBehaviour
     {
         return horizontalInput == 0 && IsGrounded(); //lagi diem dan di ground
     }
+
+    //buat dorong pushable box
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if(collision.tag == "Usable" && horizontalInput != 0)
+    //     {
+    //         anim.SetBool("Push", true);
+    //     }
+    // }
 }
