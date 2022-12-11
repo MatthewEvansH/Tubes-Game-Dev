@@ -5,8 +5,13 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private float attackCooldown;
+
     [SerializeField] private Transform bulletPoint;
     [SerializeField] private GameObject[] bullet;
+
+    [SerializeField] private Transform meleePoint;
+    [SerializeField] private GameObject[] melee;
+
     private Animator anim;
     private PlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
@@ -37,6 +42,9 @@ public class PlayerAttack : MonoBehaviour
     {
         anim.SetTrigger("AttackWithMelee");
         cooldownTimer = 0;
+
+        melee[FindMelee()].transform.position = meleePoint.position;
+        melee[FindMelee()].GetComponent<Melee>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
 
     private void AttackWithGunStand()
@@ -62,6 +70,16 @@ public class PlayerAttack : MonoBehaviour
         for (int i = 0; i < bullet.Length; i++)
         {
             if (!bullet[i].activeInHierarchy)
+                return i;
+        }
+        return 0;
+    }
+
+    private int FindMelee()
+    {
+        for (int i = 0; i < melee.Length; i++)
+        {
+            if (!melee[i].activeInHierarchy)
                 return i;
         }
         return 0;
