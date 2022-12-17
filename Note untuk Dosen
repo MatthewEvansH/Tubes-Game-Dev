@@ -1,0 +1,18 @@
+SCRIPT
+Script yang bikin sendiri ada di folder yang namanya New Script.
+Path : Tubes-Game-Dev\SaveTheQueen\Assets\2DGamekit\New Script
+
+PREFAB
+Prefab yang sudah dibuat dan diubah" ada di folder bernama New Prefab.
+Path : Tubes-Game-Dev\SaveTheQueen\Assets\2DGamekit\New Prefabs
+
+SCENES
+Scenes yang kita buat ada di folder Scene.
+Path : Tubes-Game-Dev\SaveTheQueen\Assets\Scenes
+
+Cara main :
+Step 1 : buka Scene Main Menu lalu pencet play
+Step 2 : gerakin player + loncat + crouch menggunakan Arrow Keys, menyerang bisa menggunakan Z (melee) dan X (ranged attack)
+Step 3 : selesaikan sampai ujung Stage nanti akan otomatis terpindah ke Stage lainya
+Step 4 : letak Transisinya (Stage 1 = setelah melewati patung di ujung, loncat ke bawah) (Stage 2 = sampai ujung map dan loncat ke bawah) 
+(Stage 3 : setelah pintu terbuka, jalan terus sampai teleporter) (Boss = kalahkan boss, lalu jalan sampai ke ujung).
